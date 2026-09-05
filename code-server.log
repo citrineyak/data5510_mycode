@@ -1,0 +1,28 @@
+[2026-09-05T04:24:08.792Z] info  code-server 4.135.0 de89acbcdce9d9b870008a270c9f6466993d91f4
+[2026-09-05T04:24:08.793Z] info  Using user-data-dir /root/.local/share/code-server
+[2026-09-05T04:24:08.812Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2026-09-05T04:24:08.812Z] info  HTTPS server listening on https://0.0.0.0/
+[2026-09-05T04:24:08.813Z] info    - Authentication is enabled
+[2026-09-05T04:24:08.813Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2026-09-05T04:24:08.813Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2026-09-05T04:24:08.813Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[04:24:16] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[04:24:16] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-c009055a-9208-4e06-9475-33fc82dc08df.sock)
+[04:24:16] Extension host agent started.
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[04:24:25] [<unknown>][93500eed][ManagementConnection] New connection established.
+[04:24:26] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[04:24:28] [<unknown>][d69b066b][ExtensionHostConnection] New connection established.
+[04:24:28] [<unknown>][d69b066b][ExtensionHostConnection] Starting extension host process...
+[04:24:28] [<unknown>][d69b066b][ExtensionHostConnection] <2873> Launched Extension Host Process.
+[IPC Library: Agent Host] Agent host server listening on /tmp/vscode-ipc-c009055a-9208-4e06-9475-33fc82dc08df.sock
+[04:24:29] ServerAgentHostManager: agent host started
+[04:24:29] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-c009055a-9208-4e06-9475-33fc82dc08df.sock
+[04:24:29] [<unknown>][d69b066b][ExtensionHostConnection] <2873> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
