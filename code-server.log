@@ -1,28 +1,31 @@
-[2026-09-05T04:24:08.792Z] info  code-server 4.135.0 de89acbcdce9d9b870008a270c9f6466993d91f4
-[2026-09-05T04:24:08.793Z] info  Using user-data-dir /root/.local/share/code-server
-[2026-09-05T04:24:08.812Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
-[2026-09-05T04:24:08.812Z] info  HTTPS server listening on https://0.0.0.0/
-[2026-09-05T04:24:08.813Z] info    - Authentication is enabled
-[2026-09-05T04:24:08.813Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
-[2026-09-05T04:24:08.813Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
-[2026-09-05T04:24:08.813Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
-[04:24:16] 
+[2026-09-13T00:42:03.532Z] info  code-server 4.135.0 de89acbcdce9d9b870008a270c9f6466993d91f4
+[2026-09-13T00:42:03.535Z] info  Using user-data-dir /root/.local/share/code-server
+[2026-09-13T00:42:03.597Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2026-09-13T00:42:03.597Z] info  HTTPS server listening on https://0.0.0.0/
+[2026-09-13T00:42:03.600Z] info    - Authentication is enabled
+[2026-09-13T00:42:03.601Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2026-09-13T00:42:03.601Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2026-09-13T00:42:03.601Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[00:42:07] 
 
 
 
 
 [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
-[04:24:16] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-c009055a-9208-4e06-9475-33fc82dc08df.sock)
-[04:24:16] Extension host agent started.
+[00:42:07] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-6040f12e-1c03-425b-8348-ae04a8ebff9c.sock)
+[00:42:07] Extension host agent started.
+[00:42:08] [<unknown>][a140aebe][ManagementConnection] Unknown reconnection token (never seen).
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
-[04:24:25] [<unknown>][93500eed][ManagementConnection] New connection established.
-[04:24:26] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
-[04:24:28] [<unknown>][d69b066b][ExtensionHostConnection] New connection established.
-[04:24:28] [<unknown>][d69b066b][ExtensionHostConnection] Starting extension host process...
-[04:24:28] [<unknown>][d69b066b][ExtensionHostConnection] <2873> Launched Extension Host Process.
-[IPC Library: Agent Host] Agent host server listening on /tmp/vscode-ipc-c009055a-9208-4e06-9475-33fc82dc08df.sock
-[04:24:29] ServerAgentHostManager: agent host started
-[04:24:29] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-c009055a-9208-4e06-9475-33fc82dc08df.sock
-[04:24:29] [<unknown>][d69b066b][ExtensionHostConnection] <2873> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+[00:42:22] [<unknown>][3be88155][ManagementConnection] New connection established.
+[00:42:25] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[00:42:25] [<unknown>][ff8dca0e][ExtensionHostConnection] New connection established.
+[00:42:25] [<unknown>][ff8dca0e][ExtensionHostConnection] Starting extension host process...
+[00:42:25] [<unknown>][ff8dca0e][ExtensionHostConnection] <8471> Launched Extension Host Process.
+[00:42:26] [<unknown>][ff8dca0e][ExtensionHostConnection] <8471> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
 
+[IPC Library: Agent Host] Agent host server listening on /tmp/vscode-ipc-6040f12e-1c03-425b-8348-ae04a8ebff9c.sock
+[00:42:26] ServerAgentHostManager: agent host started
+[00:42:26] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-6040f12e-1c03-425b-8348-ae04a8ebff9c.sock
+[00:45:11] [<unknown>][3be88155][ManagementConnection] The client has reconnected.
+[00:45:13] [<unknown>][ff8dca0e][ExtensionHostConnection] The client has reconnected.
