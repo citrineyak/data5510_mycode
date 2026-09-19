@@ -1,31 +1,28 @@
-[2026-09-13T00:42:03.532Z] info  code-server 4.135.0 de89acbcdce9d9b870008a270c9f6466993d91f4
-[2026-09-13T00:42:03.535Z] info  Using user-data-dir /root/.local/share/code-server
-[2026-09-13T00:42:03.597Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
-[2026-09-13T00:42:03.597Z] info  HTTPS server listening on https://0.0.0.0/
-[2026-09-13T00:42:03.600Z] info    - Authentication is enabled
-[2026-09-13T00:42:03.601Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
-[2026-09-13T00:42:03.601Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
-[2026-09-13T00:42:03.601Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
-[00:42:07] 
+[2026-09-19T18:01:30.478Z] info  code-server 4.135.0 de89acbcdce9d9b870008a270c9f6466993d91f4
+[2026-09-19T18:01:30.496Z] info  Using user-data-dir /root/.local/share/code-server
+[2026-09-19T18:01:30.524Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2026-09-19T18:01:30.524Z] info  HTTPS server listening on https://0.0.0.0/
+[2026-09-19T18:01:30.524Z] info    - Authentication is enabled
+[2026-09-19T18:01:30.524Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2026-09-19T18:01:30.524Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2026-09-19T18:01:30.524Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[18:01:36] 
 
 
 
 
 [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
-[00:42:07] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-6040f12e-1c03-425b-8348-ae04a8ebff9c.sock)
-[00:42:07] Extension host agent started.
-[00:42:08] [<unknown>][a140aebe][ManagementConnection] Unknown reconnection token (never seen).
-File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[18:01:36] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-28f8e7f6-e727-46e1-a605-874af0fe18c2.sock)
+[18:01:36] Extension host agent started.
 File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
-[00:42:22] [<unknown>][3be88155][ManagementConnection] New connection established.
-[00:42:25] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
-[00:42:25] [<unknown>][ff8dca0e][ExtensionHostConnection] New connection established.
-[00:42:25] [<unknown>][ff8dca0e][ExtensionHostConnection] Starting extension host process...
-[00:42:25] [<unknown>][ff8dca0e][ExtensionHostConnection] <8471> Launched Extension Host Process.
-[00:42:26] [<unknown>][ff8dca0e][ExtensionHostConnection] <8471> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[18:01:44] [<unknown>][3369a5ce][ManagementConnection] New connection established.
+[18:01:44] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[18:01:47] [<unknown>][ddf4b700][ExtensionHostConnection] New connection established.
+[18:01:47] [<unknown>][ddf4b700][ExtensionHostConnection] Starting extension host process...
+[18:01:47] [<unknown>][ddf4b700][ExtensionHostConnection] <2563> Launched Extension Host Process.
+[IPC Library: Agent Host] Agent host server listening on /tmp/vscode-ipc-28f8e7f6-e727-46e1-a605-874af0fe18c2.sock
+[18:01:47] ServerAgentHostManager: agent host started
+[18:01:47] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-28f8e7f6-e727-46e1-a605-874af0fe18c2.sock
+[18:01:47] [<unknown>][ddf4b700][ExtensionHostConnection] <2563> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
 
-[IPC Library: Agent Host] Agent host server listening on /tmp/vscode-ipc-6040f12e-1c03-425b-8348-ae04a8ebff9c.sock
-[00:42:26] ServerAgentHostManager: agent host started
-[00:42:26] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-6040f12e-1c03-425b-8348-ae04a8ebff9c.sock
-[00:45:11] [<unknown>][3be88155][ManagementConnection] The client has reconnected.
-[00:45:13] [<unknown>][ff8dca0e][ExtensionHostConnection] The client has reconnected.
