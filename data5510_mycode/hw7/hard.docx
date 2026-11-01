@@ -1,0 +1,13 @@
+If you have a node with no children, all you need to do is make sure that smaller values remain on the left and big on the right, and since there is no children, you can simly remove the node and change the parent's reference to that node to None
+
+Deleting a node with 1 child involves replacing the node with its child. This is a bit more complicated. You can remove the node and connect the parent directly to the child. This maintains the tree's structure.
+
+
+
+
+
+# How would you hand deleting a node with 2 children
+
+This one is a lot more complicated and I had to do research. The approach I was able to come up with is finding the nodes in order successor. Take that value and copy it into the node being deleted, delete the successor, and since the successor is the smallest value in the right subtree, there's no left child. This makes removing it easier.
+
+Some complications include if there isn't a value in the tree and you're deleting it. You need to check to make sure that the tree doesn't get changed in that case. Also deleting the root is weird because it doesn't have a parent. You also need to make sure when deleting nodes that may or may not have children, you need to make sure your deletion function runs the correct method.
